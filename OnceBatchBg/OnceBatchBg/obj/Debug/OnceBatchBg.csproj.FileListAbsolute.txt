@@ -1,0 +1,10 @@
+C:\Users\guanhao\Desktop\OnceBatchBg\OnceBatchBg\OnceBatchBg\bin\Debug\OnceBatchBg.exe.config
+C:\Users\guanhao\Desktop\OnceBatchBg\OnceBatchBg\OnceBatchBg\bin\Debug\OnceBatchBg.exe
+C:\Users\guanhao\Desktop\OnceBatchBg\OnceBatchBg\OnceBatchBg\bin\Debug\OnceBatchBg.pdb
+C:\Users\guanhao\Desktop\OnceBatchBg\OnceBatchBg\OnceBatchBg\obj\Debug\OnceBatchBg.csprojResolveAssemblyReference.cache
+C:\Users\guanhao\Desktop\OnceBatchBg\OnceBatchBg\OnceBatchBg\obj\Debug\OnceBatchBg.Form1.resources
+C:\Users\guanhao\Desktop\OnceBatchBg\OnceBatchBg\OnceBatchBg\obj\Debug\OnceBatchBg.Properties.Resources.resources
+C:\Users\guanhao\Desktop\OnceBatchBg\OnceBatchBg\OnceBatchBg\obj\Debug\OnceBatchBg.csproj.GenerateResource.Cache
+C:\Users\guanhao\Desktop\OnceBatchBg\OnceBatchBg\OnceBatchBg\obj\Debug\OnceBatchBg.exe
+C:\Users\guanhao\Desktop\OnceBatchBg\OnceBatchBg\OnceBatchBg\obj\Debug\OnceBatchBg.pdb
+C:\Users\guanhao\Desktop\OnceBatchBg\OnceBatchBg\OnceBatchBg\obj\Debug\OnceBatchBg.csproj.ResolveComReference.cache
