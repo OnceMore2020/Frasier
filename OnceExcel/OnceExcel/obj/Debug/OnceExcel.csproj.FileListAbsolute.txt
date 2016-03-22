@@ -1,0 +1,10 @@
+C:\Users\guanhao\Desktop\excel-processor\OnceExcel\OnceExcel\bin\Debug\OnceExcel.exe
+C:\Users\guanhao\Desktop\excel-processor\OnceExcel\OnceExcel\bin\Debug\OnceExcel.pdb
+C:\Users\guanhao\Desktop\excel-processor\OnceExcel\OnceExcel\obj\Debug\OnceExcel.csprojResolveAssemblyReference.cache
+C:\Users\guanhao\Desktop\excel-processor\OnceExcel\OnceExcel\obj\Debug\Interop.VSTOEE100.dll
+C:\Users\guanhao\Desktop\excel-processor\OnceExcel\OnceExcel\obj\Debug\OnceExcel.csproj.ResolveComReference.cache
+C:\Users\guanhao\Desktop\excel-processor\OnceExcel\OnceExcel\obj\Debug\OnceExcel.Form1.resources
+C:\Users\guanhao\Desktop\excel-processor\OnceExcel\OnceExcel\obj\Debug\OnceExcel.Properties.Resources.resources
+C:\Users\guanhao\Desktop\excel-processor\OnceExcel\OnceExcel\obj\Debug\OnceExcel.csproj.GenerateResource.Cache
+C:\Users\guanhao\Desktop\excel-processor\OnceExcel\OnceExcel\obj\Debug\OnceExcel.exe
+C:\Users\guanhao\Desktop\excel-processor\OnceExcel\OnceExcel\obj\Debug\OnceExcel.pdb
