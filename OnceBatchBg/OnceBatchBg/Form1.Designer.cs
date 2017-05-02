@@ -40,24 +40,25 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("SimSun", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(95, 18);
+            this.label1.Location = new System.Drawing.Point(78, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(269, 29);
+            this.label1.Size = new System.Drawing.Size(253, 29);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Have A Nice Day!";
+            this.label1.Text = "Have A Nice Day";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label_path
             // 
-            this.label_path.Location = new System.Drawing.Point(24, 66);
+            this.label_path.Location = new System.Drawing.Point(17, 57);
             this.label_path.Name = "label_path";
-            this.label_path.Size = new System.Drawing.Size(296, 21);
+            this.label_path.Size = new System.Drawing.Size(296, 20);
             this.label_path.TabIndex = 1;
             // 
             // btn_path
             // 
-            this.btn_path.Location = new System.Drawing.Point(328, 64);
+            this.btn_path.Location = new System.Drawing.Point(319, 57);
             this.btn_path.Name = "btn_path";
-            this.btn_path.Size = new System.Drawing.Size(75, 23);
+            this.btn_path.Size = new System.Drawing.Size(75, 20);
             this.btn_path.TabIndex = 2;
             this.btn_path.Text = "选择路径";
             this.btn_path.UseVisualStyleBackColor = true;
@@ -65,9 +66,9 @@
             // 
             // btn_gen
             // 
-            this.btn_gen.Location = new System.Drawing.Point(24, 108);
+            this.btn_gen.Location = new System.Drawing.Point(134, 83);
             this.btn_gen.Name = "btn_gen";
-            this.btn_gen.Size = new System.Drawing.Size(379, 116);
+            this.btn_gen.Size = new System.Drawing.Size(122, 28);
             this.btn_gen.TabIndex = 3;
             this.btn_gen.Text = "生成Powerpoint文件";
             this.btn_gen.UseVisualStyleBackColor = true;
@@ -75,15 +76,16 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(466, 262);
+            this.ClientSize = new System.Drawing.Size(405, 118);
             this.Controls.Add(this.btn_gen);
             this.Controls.Add(this.btn_path);
             this.Controls.Add(this.label_path);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "OnceBatchBg-Powerpoint Backgrounds Batch Processing";
+            this.Text = "OnceBackground";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

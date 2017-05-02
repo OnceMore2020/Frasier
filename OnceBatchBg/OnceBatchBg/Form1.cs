@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using Microsoft.Office.Core;
+using System;
 using System.Data;
 using System.IO;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using Microsoft.Office.Core;
 using PowerPoint = Microsoft.Office.Interop.PowerPoint;
-using Graph = Microsoft.Office.Interop.Graph;
-using System.Runtime.InteropServices;
 
 namespace OnceBatchBg
 {
@@ -55,16 +48,26 @@ namespace OnceBatchBg
             objSlides = objPres.Slides;
             
             FileInfo[] pic_files = pic_path.GetFiles();
-            foreach (FileInfo NextFile in pic_files)    //遍历文件
+            foreach (FileInfo fileHandle in pic_files.OrderBy(fileHandle => fileHandle.FullName).Reverse())
             {
-                string file_name = NextFile.Name.ToLower();
+                string file_name = fileHandle.Name.ToLower();
                 if (file_name.EndsWith(".jpg") || file_name.EndsWith(".jpeg") || file_name.EndsWith(".png") || file_name.EndsWith(".tiff"))
                 {
                     objSlide = objSlides.Add(1, PowerPoint.PpSlideLayout.ppLayoutBlank);
                     objSlide.FollowMasterBackground = MsoTriState.msoFalse;
-                    objSlide.Background.Fill.UserPicture(NextFile.FullName);
+                    objSlide.Background.Fill.UserPicture(fileHandle.FullName);
                 }
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
